@@ -1,0 +1,16 @@
+
+- Object -> Function -> Modified Object -> Function -> Modified Object ...
+- Imperative vs. Declarative. HOW vs WHAT
+Functional programming is like describing your problem to a mathematician.
+Imperative programming is like giving instructions to an idiot.
+
+
+- Avoiding mutable state
+- Side effect free functions
+- Referential transparency
+- First-Class citizens - Stored in variables, passed as a function, returned from functions 
+- Higher-Order Functions
+- Lambdas and Closures
+- Lazy Evaluation
+- Recursion
+
