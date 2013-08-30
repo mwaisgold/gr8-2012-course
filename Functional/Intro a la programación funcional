@@ -8,9 +8,10 @@ Imperative programming is like giving instructions to an idiot.
 - Avoiding mutable state
 - Side effect free functions
 - Referential transparency
-- First-Class citizens - Stored in variables, passed as a function, returned from functions 
+- First-Class citizens - Functions stored in variables, passed as a function, returned from functions 
 - Higher-Order Functions
 - Lambdas and Closures
 - Lazy Evaluation
 - Recursion
 
+ 

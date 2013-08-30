@@ -1,7 +1,9 @@
 
 class PizzaShop {
 //YOUR CODE GOES HERE
-	def propertyMissing(name){name}
+	def propertyMissing(name){
+		name
+	}
 
 	def size(s){ println "$s"}
 	def crust(c){ println "$c crust" }
@@ -11,6 +13,8 @@ class PizzaShop {
 		println "placing order for Pizza: "
 		def p = new PizzaShop()
 		p.with block
+		//block.delegate = p
+		//block()
 
 	}
 }

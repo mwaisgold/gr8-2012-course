@@ -25,6 +25,7 @@ joe.playFootball()
 joe.playTennis()
 joe.playTennis()
 
+
 //----------------------------------
 def str = '''
 	println "hello $name"
@@ -47,5 +48,9 @@ def getWinner(){
 	println "Winner is $winner.key with score $winner.value"
 }
 
+def setWinner(obj){
+	println "setter"
+}
+
 players "Jack", "Jane", "James"
-winner
+winner = "hola"

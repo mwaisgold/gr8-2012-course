@@ -9,11 +9,11 @@ for (number in numbers) { //Bad idea, number is not a final variable IS MUTABLE
 funcs.each { it() }
 /*
 for (func in funcs) {
-    func() // Always prints 6
+    func() 
 }*/
 
 //Fixing
-//funcs = numbers.collect { number -> { -> println number} } //Not MUTATING, each time is a different "number" variable
-//funcs.each { it() } //Each is dangerous it's a STATEMENT
+funcs = numbers.collect { number -> { -> println number} } //Not MUTATING, each time is a different "number" variable
+funcs.each { it() } //Each is dangerous it's a STATEMENT
 
 
